@@ -84,3 +84,7 @@ section img {
     width: 50%;
     margin-bottom: 30px;
 }
+
+li {
+    list-style-type: none;
+}
