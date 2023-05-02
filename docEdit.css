@@ -1,14 +1,23 @@
+@font-face{
+    font-family: 'head';
+    src : url('head.ttf');
+}
+
+
+
 html {
     scrollbar-width: none;
 }
 
 header {
-    background-color: #333;
+    background-color: #ccccff;
     color: #fff;
     padding: 20px;
     text-align: center;
-}
+    font: 300%/150% 'head', cursive;
 
+
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,12 +27,13 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+
 }
 
 .container {
-    background: #f0f0f0;
+    background: #ffe6e6;
     height: 100vh;
-    font-family: "Raleway", sans-serif;
+
 }
 .message {
     width: 98%;

@@ -1,8 +1,18 @@
+@font-face{
+    font-family: 'head';
+    src : url('head.ttf');
+}
+@font-face{
+    font-family: 'body';
+    src : url('body.ttf');
+}
+
 html {
     scrollbar-width: none;
 }
 
 body {
+    font-family: 'body', sans-serif;
     -ms-overflow-style: none;
 }
 
@@ -11,7 +21,8 @@ body::-webkit-scrollbar {
 }
 
 header {
-    background-color: #333;
+    font: 300%/150% 'head', cursive;
+    background-color: #ccccff;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -28,11 +39,12 @@ nav {
 }
 
 nav a {
+
     color: #333;
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
-    font-size: 18px;
+    font-size: 33px;
     font-weight: bold;
     transition: all 0.3s ease;
 }
@@ -46,42 +58,51 @@ nav a:hover {
 .login {
     padding: 10px;
     margin: 0 10px;
-    background-color: #333;
+    font-family: 'body', sans-serif;
+
+
+    background-color: #6666ff;
     color: #fff;
+    border: 2px solid #fff;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .login:hover {
-    background-color: #fff;
-    color: #333;
-    border: 2px solid #333;
+  background-color: #fff;
+  color: #6666ff;
+  border: 2px solid #6666ff;
 }
 
 section {
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: #ffe6e6;
     text-align: center;
 }
 
 section h2 {
-    font-size: 36px;
+    font-size: 60px;
+    color: #00004d;
     margin-bottom: 30px;
 }
 
 section p {
-    font-size: 20px;
+    font-size: 40px;
+    color: #000080;
     line-height: 1.5;
 }
 
 section img {
-    width: 50%;
+    width: 80px;
+    height: 80px;
     margin-bottom: 30px;
 }
 
 li {
+    font-size: 32px;
+    color: #000080;
     list-style-type: none;
 }
