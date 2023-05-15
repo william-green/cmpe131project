@@ -1,0 +1,27 @@
+Citation/Reference
+
+Login Page - https://colorlib.com/etc/lf/Login_v11/index.html
+
+Text Editor - https://blog.logrocket.com/build-google-doc-clone-html-css-javascript/#add-google-authentication
+
+Homepage - ChatGpt
+Prompt
+Create a single page website with logo, navbar below the logo with Home, About, FAQ , Contact buttons that scroll to the section upon clicking it
+
+tailored for a note-taking website named FlexNote
+
+continue
+
+now add a log in button on the right side of nav bar
+
+create login interface 
+
+create a notetaking web app thats similar to google docs
+
+create a webpage for document creation and editing
+
+
+
+
+
+
